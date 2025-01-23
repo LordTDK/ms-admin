@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft Admin Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #0078d4;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        main {
+            padding: 2em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .button-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1em;
+            justify-content: center;
+        }
+        .admin-button {
+            background-color: #0078d4;
+            color: white;
+            padding: 1em 2em;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            text-decoration: none;
+            text-align: center;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .admin-button:hover {
+            background-color: #005a9e;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Microsoft Administration Centres</h1>
+    </header>
+    <main>
+        <div class="button-container">
+			<a href="https://entra.microsoft.com" class="admin-button" target="_blank">Identity\Entra Admin</a>            
+			<a href="https://endpoint.microsoft.com" class="admin-button" target="_blank">Intune Admin</a>
+            <a href="https://admin.microsoft.com" class="admin-button" target="_blank">Microsoft 365 Admin</a>
+            <a href="https://admin.exchange.microsoft.com" class="admin-button" target="_blank">Exchange Admin</a>
+            <a href="https://security.microsoft.com" class="admin-button" target="_blank">Microsoft Security</a>
+            <a href="https://compliance.microsoft.com" class="admin-button" target="_blank">Compliance Center</a>
+            <a href="https://admin.teams.microsoft.com" class="admin-button" target="_blank">Teams Admin</a>
+            <a href="https://portal.azure.com" class="admin-button" target="_blank">Azure Admin</a>
+        </div>
+    </main>
+</body>
+</html>
+
+
+
